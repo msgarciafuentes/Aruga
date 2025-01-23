@@ -1278,6 +1278,12 @@ section,
   background: rgba(13, 202, 240, 0.1);
 }
 
+.services .service-item.item-blue .icon {
+  color: #0038a8;
+  border: 1px solid #0038a8;
+  background: rgba(13, 47, 240, 0.1);
+}
+
 .services .service-item.item-orange .icon {
   color: #fd7e14;
   border: 1px solid #fd7e14;

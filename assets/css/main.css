@@ -1032,7 +1032,7 @@ section,
 }
 
 .about .content .read-more {
-  background: var(--side-color);
+  background: var(--accent-color);
   color: var(--contrast-color);
   font-family: var(--heading-font);
   font-weight: 500;
@@ -1054,7 +1054,7 @@ section,
 }
 
 .about .content .read-more:hover {
-  background: color-mix(in srgb, var(--side-color), transparent 20%);
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
   padding-right: 19px;
 }
 
@@ -1064,6 +1064,12 @@ section,
 
 .about .about-images img {
   border-radius: 10px;
+}
+
+.fixed-dimensions {
+  width: 960px; /* Set your desired width */
+  height: 720px; /* Set your desired height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
 }
 
 /*--------------------------------------------------------------
@@ -1384,7 +1390,7 @@ section,
 }
 
 .pricing h3 {
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 15px;
   font-size: 20px;
 }
@@ -1489,6 +1495,18 @@ section,
   background: var(--accent-color);
   color: var(--contrast-color);
   border-color: var(--accent-color);
+}
+
+.center-item {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 @media (max-width: 992px) {

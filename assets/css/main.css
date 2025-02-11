@@ -2,11 +2,17 @@
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Breathing';
+  src: url('../../fonts/Breathing.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Nunito",   Nunito;
-  --logo-font: "Bonheur Royale",   Nunito; 
+  --logo-font: "Breathing",   Nunito; 
   --nav-font: "Inter",  sans-serif;
 }
 
